@@ -18,6 +18,6 @@ Some Comment
     }
 
     stage ("Move files"){
-      sh "ssh ec2-user@${DEVIP}  "sudo cp -f /tmp/index.html /var/www/html/index.html""
+      sh "ssh ec2-user@${DEVIP}  sudo cp -f /tmp/index.html /var/www/html/index.html"
     }
 }
